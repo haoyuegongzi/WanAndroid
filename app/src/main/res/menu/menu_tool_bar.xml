@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/fireHot"-->
+        <!--android:icon="@mipmap/fire_hot_un"-->
+        <!--android:title="@string/fire_hot"-->
+        <!--app:showAsAction="ifRoom"/>-->
+
+    <item
+        android:id="@+id/search"
+        android:icon="@mipmap/search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"/>
+
+</menu>

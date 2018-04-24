@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="write">#ffffff</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="light_purple">#CFC3ED</color>
+    <color name="light_blue">#AFBDFA</color>
+    <color name="light_green">#A2D0FF</color>
+    <color name="blue_green">#5ED9F0</color>
+    <color name="green">#8FE6C3</color>
+    <color name="deep_green">#76DFCB</color>
+    <color name="light_red">#FFB1A2</color>
+    <color name="sky_blue1">#93A5F4</color>
+    <color name="sky_blue2">#61A6EF</color>
+    <color name="sky_blue3">#428DDD</color>
+    <color name="sky_blue_green">#43C5DD</color>
+    <color name="black">#000000</color>
+    <color name="b8b8b8">#8b8b8b</color>
+    <color name="light_gray">#e5e5e5</color>
+    <color name="tool_bar">#03a9f4</color>
+    <color name="drawer_divider">#e1e1e1</color>
+    <color name="tab_navigation_un">#515151</color>
+    <color name="tab_navigation">#1296db</color>
+    <color name="article_type">#03a9f4</color>
+    <color name="fire_hot_item">#3f4e8b</color>
+    <color name="hint_color">#cccccc</color>
+
+    <color name="tag_select_textcolor">#FFffffff</color>
+    <color name="tablayout_selected">#b4e5fc</color>
+    <color name="search_hint">#81d4fa</color>
+    <color name="yellow">#ffff00</color>
+    <color name="fire_hot_flow">#fafafa</color>
+
+    <color name="flow_table_item01">#3298db</color>
+    <color name="flow_table_item02">#e64c3b</color>
+    <color name="flow_table_item03">#f0c40f</color>
+    <color name="flow_table_item04">#449d44</color>
+    <color name="flow_table_item05">#ff7f00</color>
+
+</resources>

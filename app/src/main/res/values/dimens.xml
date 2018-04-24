@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="recycler_item_back_width">2dp</dimen>
+    <dimen name="recycler_item_divider">1dp</dimen>
+
+    <dimen name="super_small"> 12dp</dimen>
+    <dimen name="small">14dp</dimen>
+    <dimen name="small_middle">16dp</dimen>
+    <dimen name="middle">18dp</dimen>
+    <dimen name="middle_large">20dp</dimen>
+    <dimen name="large">40dp</dimen>
+    <dimen name="supper_large">48dp</dimen>
+
+    <dimen name="divider_list">2dp</dimen>
+
+</resources>

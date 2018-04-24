@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlKnowledgeItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:id="@+id/llKnowledgeItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:background="@drawable/home_article_item_shape"
+        android:layout_margin="2dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvKnowledgeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/middle"
+                android:text="开发环境"
+                android:textColor="@color/black"
+                android:paddingLeft="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.wanandroid.utils.flowlayout.TagFlowLayout
+                    android:id="@+id/tagKnowledgeFlowLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    zhy:max_select="-1"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/more"
+                android:layout_marginRight="25dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

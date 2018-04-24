@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="300"
+    android:exitFadeDuration="300">
+
+    <!-- 按压时 -->
+    <item android:drawable="@drawable/search_button" android:state_pressed="true" />
+    <!-- 默认时 -->
+    <item android:drawable="@color/tool_bar" />
+
+</selector>
