@@ -32,12 +32,11 @@ import butterknife.OnClick;
 
 /**
  * @author Administrator
+ * TODO：登录首页
  */
 public class LoginActivity extends BaseActivity implements ViewLoginInterface {
     LoginPresenter loginPresenter;
     LoginGreenDaoUtils greenDaoUtils;
-
-
 
     @BindView(R.id.tvBack)
     TextView tvBack;
